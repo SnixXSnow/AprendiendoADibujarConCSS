@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.relative{
+    position: relative;
+    margin: 80px;
+    width: 250px;
+    height: 250px;
+    background-color: steelblue;
+}
+
+.absolute{
+    position: absolute;
+    /*bottom: 0;
+    right: 0;*/
+    /* Centrando vertical y horizontalmente*/
+    /*top: 50%;
+    left: 50%;*/
+    /* poner los dos valores tanto de X como de Y*/
+    /*transform: translate(-50%, -50%);*/
+    /*--------*/
+    /*width: 90px;
+    height: 90px;*/
+    /*Dando dimension sin width y height*/
+    top: 20px;
+    bottom: 20px;
+    left: 50px;
+    right: 30px;
+    background-color: orange;
+    /*------------*/
+}
