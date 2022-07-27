@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.radius{
+    margin: 80px;
+    width: 250px;
+    height: 250px;
+    background-color: steelblue;
+
+    /*Aplica para las 4 esquinas por igual*/
+    /*border-radius: 30px;*/
+
+    /*Aplica valores diferentes para cada esquina. En el sentido de las agujas del reloj y comenzando por:border:
+    - Esquina superior izquierda
+    - Esquina superior derecha
+    - Esquina inferior derecha
+    - Esquina inferior izquierda
+    */
+    /*border-radius: 10px 30px 50px 70px;*/
+
+    /*Border radius creado con fancy border radius
+    https://9elements.github.io/fancy-border-radius/
+    */
+    border-radius: 23% 66% 0% 88% / 28% 49% 38% 58% ;
+}
