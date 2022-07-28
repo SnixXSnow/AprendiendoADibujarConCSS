@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bandera{
+    margin: 80px;
+    width: 70px;
+    height: 150px;
+    background-color: black;
+    /*primera sombra 70px, 0 #fdda25
+      segunda sombra 140px 0 #ef3640
+    */ 
+    box-shadow: 70px 0 #fdda25, 140px 0 #ef3640;
+    filter: drop-shadow(0 0 5px);
+}
